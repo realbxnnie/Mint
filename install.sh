@@ -29,7 +29,7 @@ echo "Cloning repository...";
 git clone https://github.com/realbxnnie/Mint /tmp/Mint;
 
 echo "Building...";   
-cd /tmp/Mint/Src && make install && mint-ascii;
+cd /tmp/Mint && make install && mint-ascii;
 
 echo "Installing...";
 sudo cp /tmp/Mint/mint /usr/bin/mint -r;
