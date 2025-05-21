@@ -28,7 +28,7 @@ fi
 echo "Cloning repository..."; 
 cd /tmp;
 git clone https://github.com/realbxnnie/Mint;
-cd Mint/src;
+cd Mint/Src;
 
 echo "Building...";   
 make install && mint-ascii;
