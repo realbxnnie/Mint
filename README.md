@@ -7,7 +7,7 @@ A simple & powerful package manager for _Candycane GNU/Linux_.
 
 Mint can be installed in one command:
 ```shell
-curl -fs https://raw.githubusercontent.com/realbxnnie/Mint/refs/heads/main/install.sh | bash
+/bin/bash -c "$(curl -fsSL  https://raw.githubusercontent.com/realbxnnie/Mint/refs/heads/main/install.sh)"
 ```
 ## Usage
 ```
