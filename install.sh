@@ -26,15 +26,13 @@ if [ -f /usr/bin/mint ]; then
 fi
 
 echo "Cloning repository..."; 
-cd /tmp;
 git clone https://github.com/realbxnnie/Mint /tmp/Mint;
-pushd /tmp/Mint/Src;
 
 echo "Building...";   
-make install && mint-ascii;
+cd /tmp/Mint/Src && make install && mint-ascii;
 
 echo "Installing...";
-sudo cp mint /usr/bin/mint -r;
+sudo cp /tmp/Mint/mint /usr/bin/mint -r;
 sudo mkdir /etc/mint;
 sudo touch /etc/mint/repo.conf;
 sudo touch /etc/mint/pkgs.list;
