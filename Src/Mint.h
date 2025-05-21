@@ -105,9 +105,9 @@ exit(0);
 Usage:
     
 COMMANDS
-    install <category>/<pkgName>   Install a package
+    install <category>/<pkgName>     Install a package
     purge   <category>/<pkgName>     Remove a package
-    update  <category>/<pkgName>     Update a package or update the repositories
+    update                           Update a package or update the repositories
     list                             List packages installed on your system
     help                             Display this message
     info                             Display program info
